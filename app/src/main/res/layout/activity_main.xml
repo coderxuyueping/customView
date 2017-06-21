@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <view.CustomView
+        android:id="@+id/custom1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:text="自定义view1"
+        app:textColor="@color/colorAccent"
+        app:textSize="16"/>
+    <view.CustomView
+        android:id="@+id/custom1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:text="自定义view2"
+        app:textColor="@color/colorPrimaryDark"
+        app:textSize="18"/>
+    <view.CustomView
+        android:id="@+id/custom1_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:text="自定义view3"
+        app:textColor="@color/colorPrimary"
+        app:textSize="20"/>
+    <view.CustomView2
+        android:id="@+id/custom2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </view.CustomView2>
+</LinearLayout>
